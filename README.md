@@ -8,8 +8,8 @@ This project is a maven project that uses Java 11 and the [Micronaut Framework](
 -   [Install the JDK 11](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html).
 - Setup the JAVA_HOME environment variable.
 
-## Start up application
-Run the following command on the root directory: ./mvnw mn:run
+## Build & start up application
+Run the following command on the root directory: ./mvnw clean package && ./mvnw mn:run
 
 ## Availabe endpoints
 
